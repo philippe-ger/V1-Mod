@@ -19,5 +19,21 @@
       "multiword_keywords"
     ],
     "DESCRIPTION": "Make sure the first element in NAMES has no underscores. The rest should use _ in the place of spaces. In card text, you'll use the underscore versions."
-  }
+  },
+  {
+    "PROPER_NAME": "Toss X",
+    "NAMES": [
+      "Toss"
+    ],
+    "DESCRIPTION": "Gain X coins, up to 4. The next attack played does 25% more damage for each coin and consumes them."
+  },
+  {
+  "PROPER_NAME": "Ricochet",
+  "NAMES": [
+    "Ricochet",
+    "Ricochet:"
+  ],
+  "DESCRIPTION": "Triggers if this attack consumed coins."
+}
+
 ]

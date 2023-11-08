@@ -5,5 +5,12 @@
     "DESCRIPTIONS": [
       "Gain [E] at the start of your turn. [E] is an energy icon."
     ]
+  },
+  "${modID}:AbsorbentArmor": {
+    "NAME": "Absorbent Armor",
+    "FLAVOR": "Built for times of war.",
+    "DESCRIPTIONS": [
+      "When you play an attack, heal 1 HP per attack played this turn, up to 4."
+    ]
   }
 }

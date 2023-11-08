@@ -4,5 +4,11 @@
     "DESCRIPTIONS": [
       "You are Very Cool and Strong."
     ]
+  },
+  "${modID}:CoinPower": {
+    "NAME": "Coin",
+    "DESCRIPTIONS": [
+      "Stacks up to 4 times. The next attack played gains 25% increased damage per stack and consumes all stacks."
+    ]
   }
 }

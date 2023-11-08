@@ -8,5 +8,17 @@
       "If you need to use it for stuff.",
       "Blizzard is a good example for this."
     ]
+  },
+  "${modID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:CoinToss": {
+    "NAME": "Coin Toss",
+    "DESCRIPTION": "${modID}:Toss !M!"
+  },
+  "${modID}:Feedbacker": {
+    "NAME": "Feedbacker",
+    "DESCRIPTION": "${modID}:Ricochet: Regain coins consumed. NL Deal !D! damage."
   }
 }
