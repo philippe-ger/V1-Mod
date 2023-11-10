@@ -10,5 +10,20 @@
     "DESCRIPTIONS": [
       "Stacks up to 4 times. The next attack played gains 25% increased damage per stack and consumes all stacks."
     ]
+  },
+  "${modID}:AirbornePower": {
+    "NAME": "Airborne",
+    "DESCRIPTIONS": [
+      "Take 3 less damage from attacks.",
+      "Takes 50% increased damage."
+    ]
+  },
+  "${modID}:VersusPower": {
+    "NAME": "Versus",
+    "DESCRIPTIONS": [
+      "OST NL ",
+      "Reduce attack damage received by ",
+      "%."
+    ]
   }
 }

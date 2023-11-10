@@ -34,6 +34,34 @@
     "Ricochet:"
   ],
   "DESCRIPTION": "Triggers if this attack consumed coins."
-}
-
+},
+  {
+    "PROPER_NAME": "Aerial",
+    "NAMES": [
+      "Aerial",
+      "Aerial:"
+    ],
+    "DESCRIPTION": "Triggers if used while Airborne."
+  },
+  {
+    "PROPER_NAME": "Jump",
+    "NAMES": [
+      "Jump"
+    ],
+    "DESCRIPTION": "Gives Airborne status until the start of next turn. NL If already Airborne, draw a card instead."
+  },
+  {
+    "PROPER_NAME": "Airborne",
+    "NAMES": [
+      "Airborne"
+    ],
+    "DESCRIPTION": "While Airborne take 3 less damage from attacks. NL Airborne enemies take 50% increased damage instead. NL Certain cards have additional effects if used while Airborne."
+  },
+  {
+    "PROPER_NAME": "OST",
+    "NAMES": [
+      "OST"
+    ],
+    "DESCRIPTION": "Only one OST can play at a time. NL Overwritting an OST with another will refund the energy cost of the older one."
+  }
 ]

@@ -20,5 +20,22 @@
   "${modID}:Feedbacker": {
     "NAME": "Feedbacker",
     "DESCRIPTION": "${modID}:Ricochet: Regain coins consumed. NL Deal !D! damage."
+  },
+  "${modID}:Jump": {
+    "NAME": "Jump",
+    "DESCRIPTION": "${modID}:Jump",
+    "UPGRADE_DESCRIPTION": "${modID}:Jump NL Draw a card."
+  },
+  "${modID}:Ultraskill": {
+    "NAME": "ULTRASKILL",
+    "DESCRIPTION": "{@@}${modID}:Jump NL ${modID}:Toss !M! NL Gain [E] NL Draw !M! card{!M!|>1=s}. NL Exhaust"
+  },
+  "${modID}:GroundSlam": {
+    "NAME": "Ground Slam",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL ${modID}:Aerial: Deal double damage and knock enemies ${modID}:Airborne."
+  },
+  "${modID}:Versus": {
+    "NAME": "Versus",
+    "DESCRIPTION": "${modID}:OST NL Take !M! % less damage from attacks."
   }
 }

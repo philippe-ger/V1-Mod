@@ -192,6 +192,7 @@ public class BloodMachineMod implements
     public static String audioPath(String file) {
         return resourcesFolder + "/audio/" + file;
     }
+    public static String musicPath(String file) {return "/audio/music/" + file;}
 
 
     //This determines the mod's ID based on information stored by ModTheSpire.
@@ -222,6 +223,8 @@ public class BloodMachineMod implements
 
         BaseMod.addAudio(makeID("SFX_SELECT"),audioPath("sfx_select.ogg"));
         BaseMod.addAudio(makeID("SFX_COINTOSS"),audioPath("sfx_cointoss.ogg"));
+        BaseMod.addAudio(makeID("SFX_JUMP"),audioPath("sfx_jump.ogg"));
+        BaseMod.addAudio(makeID("OST_VERSUS"),musicPath("ost_versus.ogg"));
     }
 
     @Override

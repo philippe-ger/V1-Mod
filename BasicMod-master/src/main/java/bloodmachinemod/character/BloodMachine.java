@@ -5,7 +5,10 @@ import basemod.abstracts.CustomPlayer;
 import basemod.animations.AbstractAnimation;
 import bloodmachinemod.cards.basic.CoinToss;
 import bloodmachinemod.cards.basic.Feedbacker;
+import bloodmachinemod.cards.basic.Jump;
 import bloodmachinemod.cards.basic.Strike;
+import bloodmachinemod.cards.rare.Ultraskill;
+import bloodmachinemod.cards.uncommon.Versus;
 import bloodmachinemod.relics.starter.AbsorbentArmor;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -94,7 +97,11 @@ public class BloodMachine extends CustomPlayer {
 
         retVal.add(CoinToss.ID);
         retVal.add(Feedbacker.ID);
+        retVal.add(Jump.ID);
 
+        //testing
+        //retVal.add(Ultraskill.ID);
+        retVal.add(Versus.ID);
         return retVal;
     }
 
