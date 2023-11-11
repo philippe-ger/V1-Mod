@@ -224,7 +224,10 @@ public class BloodMachineMod implements
         BaseMod.addAudio(makeID("SFX_SELECT"),audioPath("sfx_select.ogg"));
         BaseMod.addAudio(makeID("SFX_COINTOSS"),audioPath("sfx_cointoss.ogg"));
         BaseMod.addAudio(makeID("SFX_JUMP"),audioPath("sfx_jump.ogg"));
+
         BaseMod.addAudio(makeID("OST_VERSUS"),musicPath("ost_versus.ogg"));
+        BaseMod.addAudio(makeID("OST_VERSUS"),musicPath("ost_cybergrind.ogg"));
+        BaseMod.addAudio(makeID("OST_INTOTHEFIRE"),musicPath("ost_intothefire.ogg"));
     }
 
     @Override

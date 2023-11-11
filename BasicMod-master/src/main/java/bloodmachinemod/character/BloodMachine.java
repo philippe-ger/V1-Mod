@@ -7,15 +7,12 @@ import bloodmachinemod.cards.basic.CoinToss;
 import bloodmachinemod.cards.basic.Feedbacker;
 import bloodmachinemod.cards.basic.Jump;
 import bloodmachinemod.cards.basic.Strike;
-import bloodmachinemod.cards.rare.Ultraskill;
-import bloodmachinemod.cards.uncommon.Versus;
 import bloodmachinemod.relics.starter.AbsorbentArmor;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.evacipated.cardcrawl.modthespire.lib.SpireEnum;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.red.Strike_Red;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.EnergyManager;
@@ -99,9 +96,6 @@ public class BloodMachine extends CustomPlayer {
         retVal.add(Feedbacker.ID);
         retVal.add(Jump.ID);
 
-        //testing
-        //retVal.add(Ultraskill.ID);
-        retVal.add(Versus.ID);
         return retVal;
     }
 

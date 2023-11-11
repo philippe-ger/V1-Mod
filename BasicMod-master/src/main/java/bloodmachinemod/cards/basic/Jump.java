@@ -3,13 +3,13 @@ package bloodmachinemod.cards.basic;
 import bloodmachinemod.cards.BaseCard;
 import bloodmachinemod.character.BloodMachine;
 import bloodmachinemod.powers.AirbornePower;
-import bloodmachinemod.powers.CoinPower;
 import bloodmachinemod.util.CardStats;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+
 
 public class Jump extends BaseCard {
     public static final String ID = makeID(Jump.class.getSimpleName());

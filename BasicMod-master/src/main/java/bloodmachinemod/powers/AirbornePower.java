@@ -54,10 +54,10 @@ public class AirbornePower extends BasePower implements CloneablePowerInterface 
     }
 
     public void atEndOfRound() {
-        if (this.amount == 0) {
-            this.addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, POWER_ID));
-        } else {
+        if (this.amount > 0) {
             this.addToBot(new ReducePowerAction(this.owner, this.owner, POWER_ID, 1));
+        } else {
+            this.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, POWER_ID));
         }
     }
 

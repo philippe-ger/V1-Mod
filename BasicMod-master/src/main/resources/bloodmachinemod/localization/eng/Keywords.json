@@ -62,6 +62,6 @@
     "NAMES": [
       "OST"
     ],
-    "DESCRIPTION": "Only one OST can play at a time. NL Overwritting an OST with another will refund the energy cost of the older one."
+    "DESCRIPTION": "Only one OST can be in play at a time. NL Overwriting an OST with another will refund the energy cost of the older one."
   }
 ]

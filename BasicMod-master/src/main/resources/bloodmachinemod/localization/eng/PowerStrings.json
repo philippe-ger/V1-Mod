@@ -25,5 +25,17 @@
       "Reduce attack damage received by ",
       "%."
     ]
+  },
+  "${modID}:CyberGrindPower": {
+    "NAME": "Cyber Grind",
+    "DESCRIPTIONS": [
+      "At the start of your turn Toss ", " and Jump."
+    ]
+  },
+  "${modID}:IntoTheFirePower": {
+    "NAME": "Into The Fire",
+    "DESCRIPTIONS": [
+      "The first time you attack each turn, gain temp HP equal to the unblocked damage dealt."
+    ]
   }
 }

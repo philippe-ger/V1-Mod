@@ -37,5 +37,14 @@
   "${modID}:Versus": {
     "NAME": "Versus",
     "DESCRIPTION": "${modID}:OST NL Take !M! % less damage from attacks."
+  },
+  "${modID}:CyberGrind": {
+    "NAME": "The Cyber Grind",
+    "DESCRIPTION": "At the start of your turn ${modID}:Toss !M! and ${modID}:Jump."
+  },
+  "${modID}:IntoTheFire": {
+    "NAME": "Into The Fire",
+    "DESCRIPTION": "The first time you attack each turn, gain temp HP equal to the unblocked damage dealt.",
+    "UPGRADE_DESCRIPTION": "Innate NL The first time you attack each turn, gain temp HP equal to the unblocked damage dealt."
   }
 }
